@@ -1,0 +1,58 @@
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd,
+ul {
+  margin: 0;
+  padding: 0;    
+  font-family: montserrat;
+}
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+.Title{  
+    padding-left: 20px;  
+}
+.BarraDetalle{
+    background-color: lightslategrey;
+    color: white;
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace;
+    border: 2px  solid white ;
+}
+
+.HeaderDate{
+    justify-self: center;
+    align-self: center;
+    padding-right: 20px;
+}
+.Header{
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+}
+
+.Formulario{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Result{
+    background-color:greenyellow;
+    justify-self: center;
+    align-self: center;
+    margin: 1rem;
+    padding: 1rem;
+}

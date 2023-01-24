@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/normalize.css">
     <title>Ejercicios JS Semana 8</title>
 </head>
 <body>
@@ -13,13 +13,27 @@
         <h1 class="Title">Ejercicios JS</h1>
         <p class="HeaderDate"> 23/01/2023</p>
     </div>
-    <div>
-    <h2 class="Title2">Ejercicio 1 - </h2>
-
+    <div class="BarraDetalle">
+        <p>Semana 8, Clase 1 - Funciones Javascript</p>
     </div>
     <div>
-    <h2 class="Title2">Ejercicio 2 - Serie Fibonacci</h2>
-
+        <form action="Ejercicio1" class="Formulario">
+        <h2 class="Title2">Ejercicio 1 - Clasificación de calificaciones</h2>
+        <label for="Ejercicio2Input1">Introduzca una calificación</label>
+        <input type="text" class="TextInput" name="Ejercicio2Input1" id="Input1" placeholder="Calificación">
+        <button class="Calc" type="button" onclick="Result1()">Calcular</button>
+        <p class="Result" id="ResultForm1"></p>
+        </form>
+    </div>
+    <div>
+        <form action="Ejercicio2" class="Formulario">  
+        <h2 class="Title2">Ejercicio 2 - Serie Fibonacci</h2>
+        <label for="Ejercicio2Input1">Introduzca la serie Fibonacci a obtener</label>
+        <input type="number" class="TextInput" name="Ejercicio2Input1" id="Input2" placeholder="Indice Fibonnaci">    
+        <button class="Calc" type="button" onclick="Result2()">Calcular</button>
+        <p class="Result" id="ResultForm2"></p>
+        </form> 
     </div>
 </body>
+    <script src="./assets/js/Ejercicios.js"></script>
 </html>
